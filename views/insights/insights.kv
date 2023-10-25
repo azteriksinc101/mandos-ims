@@ -1,0 +1,115 @@
+<Insights>:
+	orientation: 'vertical'
+	spacing: dp(22)
+	BoxLayout:
+		size_hint_y: None
+		height: dp(64)
+		spacing: dp(12)
+		Widget:
+			size_hint_x: .7
+		BoxLayout:
+			spacing: dp(12)
+			size_hint_x: .3
+			FlatButton:
+				text: icon("icon-bell")
+				color: app.color_primary_text
+				font_size: app.fonts.size.h1
+				size_hint_x: None
+				width: self.height
+			Widget:
+			BoxLayout:
+				RelativeLayout:
+					Text:
+						text: icon("icon-chevron-down")
+						color: app.color_primary_text
+						font_size: app.fonts.size.h2
+						halign: "right"
+					BoxLayout:
+						padding: [0,0, dp(24), 0]
+						Spinner:
+							text: "first.samuel"
+							font_name: app.fonts.styled
+							color: app.color_primary_text
+							font_size: app.fonts.size.h3
+							text_size: self.size
+							halign: "right"
+							valign: "middle"
+							values: ['Profile', 'Logout']
+							background_normal: ""
+							background_down: ""
+							background_color: [0,0,0,0]
+	BoxLayout:
+		spacing: dp(12)
+		size_hint_y: .3
+		StatsBox:
+			title: "Revenue Generated"
+			subtitle: "$20,342"
+			bcolor: app.color_tertiary
+			font_size: app.fonts.size.extra
+			size_hint_x: .25
+		Widget:
+			size_hint_x: .125
+		StatsBox:
+			title: "Products Sold This Month"
+			subtitle: "$4539"
+			bcolor: app.color_secondary
+			font_size: app.fonts.size.extra
+			size_hint_x: .25
+		Widget:
+			size_hint_x: .125
+		StatsBox:
+			title: "Top Performer"
+			subtitle: "Flying Fish Premium Beer\n - Pressed Lemon"
+			bcolor: app.color_primary
+			font_size: app.fonts.size.extra
+			size_hint_x: .25
+	BoxLayout:
+		spacing: dp(12)
+		size_hint_y: .7
+		BackBox:
+			bcolor: app.color_secondary_bg
+			size_hint_x: .7
+		BackBox:
+			bcolor: app.color_primary_bg
+			size_hint_x: .3
+			orientation: "vertical"
+			BackBox:
+				bcolor: app.color_primary
+				radius: [self.height*.2, self.height*.2, 0, 0]
+				size_hint_y: None
+				height: dp(64)
+				spacing: dp(12)
+				padding: [dp(12), 2]
+				Text:
+					text: "Top 10 Best Sellers"
+					color: app.color_primary_bg
+					font_size: app.fonts.size.h2
+					size_hint_x: .7
+				BoxLayout:
+					size_hint_x: .3
+			BoxLayout:
+
+<StatsBox@BoxLayout>:
+	bcolor: rgba("#ffffff")
+	title: ""
+	subtitle: ""
+	font_size: dp(16)
+	BackBox:
+		orientation: 'vertical'
+		spacing: dp(8)
+		radius: [self.height*.1]
+		bcolor: root.bcolor
+		Text:
+			text: root.subtitle
+			font_size: root.font_size
+			color: rgba("#ffffff")
+			halign: "center"
+			valign: "middle"
+			size_hint_y: .6
+		Text:
+			text: root.title
+			font_size: app.fonts.size.h5
+			color: rgba("#ffffff")
+			halign: "center"
+			valign: "middle"
+			size_hint_y: .4

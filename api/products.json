@@ -1,0 +1,98 @@
+{
+    "3585735890": {
+        "name": "Mr Muscle B/Cleaner",
+        "in_stock": 427401,
+        "sold": 453,
+        "price": 4.00,
+        "discount": 0,
+        "order_date": "2022/12/22"
+    },
+    "1567882501": {
+        "name": "Bokomo WheatBix",
+        "in_stock": 2499,
+        "sold": 2537,
+        "price": 2.50,
+        "discount": 0,
+        "order_date": "2022/11/01"
+    },
+    "3093746127": {
+        "name": "Windolene Window Cleaner",
+        "in_stock": 30327,
+        "sold": 1256,
+        "price": 3.60,
+        "discount": 0,
+        "order_date": "2022/12/22"
+    },
+    "3095289375": {
+        "name": "Hunter's Dry Cider",
+        "in_stock": 992,
+        "sold": 4256,
+        "price": 1.21,
+        "discount": 0,
+        "order_date": "2022/12/01"
+    },
+    "3095289371": {
+        "name": "Hunter's Gold Cider",
+        "in_stock": 842,
+        "sold": 4498,
+        "price": 1.21,
+        "discount": 0,
+        "order_date": "2022/12/01"
+    },
+    "3095234570": {
+        "name": "Cocacola Soft Drink - 2L",
+        "in_stock": 1463,
+        "sold": 2871,
+        "price": 2.00,
+        "discount": 0,
+        "order_date": "2022/10/30"
+    },
+    "3095234578": {
+        "name": "Cocacola Soft Drink - 500ml",
+        "in_stock": 2107,
+        "sold": 218,
+        "price": 0.50,
+        "discount": 0,
+        "order_date": "2022/10/30"
+    },
+    "8395234100": {
+        "name": "McMeen Cocktail Shaker",
+        "in_stock": 298,
+        "sold": 28,
+        "price": 177.99,
+        "discount": 0,
+        "order_date": "2023/01/02"
+    },
+    "1395289400": {
+        "name": "Flying Fish Premium Beer - Pressed Lemon",
+        "in_stock": 178,
+        "sold": 3920,
+        "price": 1.99,
+        "discount": 0,
+        "order_date": "2023/01/02"
+    },
+    "1395289401": {
+        "name": "Flying Fish Premium Beer - Crashed Apple",
+        "in_stock": 144,
+        "sold": 4012,
+        "price": 1.99,
+        "discount": 0,
+        "order_date": "2023/01/02"
+    },
+    "3839487110": {
+        "name": "McKean Frozen Fish - Bream",
+        "in_stock": 140,
+        "sold": 720,
+        "price": 4.99,
+        "discount": 0,
+        "order_date": "2022/12/29"
+    },
+    "3831071195": {
+        "name": "Dendairy Fresh Milk UHT 2L",
+        "in_stock": 89,
+        "sold": 629,
+        "price": 1.23,
+        "discount": 0,
+        "order_date": "2023/01/02"
+    }
+}
